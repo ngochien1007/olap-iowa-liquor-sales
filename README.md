@@ -58,13 +58,28 @@ Also, I visualize the given issues by using Power BI. For example, I will show s
 
 ### Data Mining 
 
-#### Dataset
+**Note:** Due to the shortage of data, we decided to collect 
 
 #### Problem Statement
 
-#### Results
+I used time series forecasting techniques on two algorithms: Random Forest Regression and Linear Regression. The implementation idea is to forecast the total sales of alcohol in the state of Iowa for the next 14 days (from January 1, 2022 to January 14, 2022) based on two attributes: Date (Date of Sales) and Revenue (Total sales per day), specifically taking 14 days of the past to forecast for a day in the future.
+
+#### Evaluation
+
+The following metrics are used to evaluate models: MSE, RMSE, MAE, MAPE, R2.
+
+![results](https://github.com/ngochien1007/olap-iowa-liquor-sales/assets/154615929/43166770-81dc-4f02-aae4-746de6c75b54)
 
 #### Conclusion
 
+Based on the evaluation metrics calculated, in general, the Linear Regression model produces better results than the Random Forest Regression model because the RMSE on the test set of Linear Regression (733414.43) is smaller than the Random Forest Regression model (749863.08).
+
+Since the Linear Regression model is better than the Random Forest model, we will explain the meaning based on the graph of this model. In the 14 days of forecast, the revenue of alcohol sales in the state of Iowa has a cyclical fluctuation. Revenue tends to increase on weekends, such as January 1, 2023, which is Sunday, then revenue will decrease on weekdays and increase again on the following weekends.
+
+![conclusion](https://github.com/ngochien1007/olap-iowa-liquor-sales/assets/154615929/f1d3b931-446a-4936-a292-eca19248e992")
+
+
 ## Acknowledgement
+
+I would like to express my thank to my teammate - Lien and other mates assisting me to accomplish this project.
 
