@@ -74,7 +74,7 @@ The following metrics are used to evaluate models: MSE, RMSE, MAE, MAPE, R2.
 
 Based on the evaluation metrics calculated, in general, the Linear Regression model produces better results than the Random Forest Regression model because the RMSE on the test set of Linear Regression (733414.43) is smaller than the Random Forest Regression model (749863.08).
 
-Since the Linear Regression model is better than the Random Forest model, we will explain the meaning based on the graph of this model. In the 14 days of forecast, the revenue of alcohol sales in the state of Iowa has a cyclical fluctuation. Revenue tends to increase on weekends, such as January 1, 2023, which is Sunday, then revenue will decrease on weekdays and increase again on the following weekends.
+Since the Linear Regression model is better than the Random Forest model, we will explain the meaning based on the graph of this model. In the 14 days of forecast, the alcohol sales in  Iowa have a cyclical fluctuation. Revenue tends to increase on weekends, such as January 1, 2023, which is Sunday, then revenue will decrease on weekdays and go up again on the following weekends.
 
 ![conclusion](https://github.com/ngochien1007/olap-iowa-liquor-sales/assets/154615929/f1d3b931-446a-4936-a292-eca19248e992")
 
