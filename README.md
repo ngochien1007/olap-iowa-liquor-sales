@@ -58,7 +58,7 @@ Also, I visualize the given issues by using Power BI. For example, I will show s
 
 ### Data Mining 
 
-**Note:** Due to the shortage of data, we decided to collect 
+**Note:** Due to insufficient data, the team has decided to collect data for the entire year 2022.
 
 #### Problem Statement
 
